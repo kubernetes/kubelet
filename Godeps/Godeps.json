@@ -1,7 +1,7 @@
 {
 	"ImportPath": "k8s.io/kubelet",
-	"GoVersion": "go1.11",
-	"GodepVersion": "v80",
+	"GoVersion": "go1.12",
+	"GodepVersion": "v80-k8s-r1",
 	"Packages": [
 		"./..."
 	],
@@ -56,91 +56,91 @@
 		},
 		{
 			"ImportPath": "k8s.io/api/core/v1",
-			"Rev": "16f65c82b8fa063598f779f64079bd40275a0248"
+			"Rev": "ece2eb519b35dd4e85d2f93857bc7e9846d21083"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/api/resource",
-			"Rev": "2f7e9cae4418a86ea03618fea183bfe9fe43c574"
+			"Rev": "ece2eb519b35dd4e85d2f93857bc7e9846d21083"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/apis/meta/v1",
-			"Rev": "2f7e9cae4418a86ea03618fea183bfe9fe43c574"
+			"Rev": "ece2eb519b35dd4e85d2f93857bc7e9846d21083"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/conversion",
-			"Rev": "2f7e9cae4418a86ea03618fea183bfe9fe43c574"
+			"Rev": "ece2eb519b35dd4e85d2f93857bc7e9846d21083"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/conversion/queryparams",
-			"Rev": "2f7e9cae4418a86ea03618fea183bfe9fe43c574"
+			"Rev": "ece2eb519b35dd4e85d2f93857bc7e9846d21083"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/fields",
-			"Rev": "2f7e9cae4418a86ea03618fea183bfe9fe43c574"
+			"Rev": "ece2eb519b35dd4e85d2f93857bc7e9846d21083"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/labels",
-			"Rev": "2f7e9cae4418a86ea03618fea183bfe9fe43c574"
+			"Rev": "ece2eb519b35dd4e85d2f93857bc7e9846d21083"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/runtime",
-			"Rev": "2f7e9cae4418a86ea03618fea183bfe9fe43c574"
+			"Rev": "ece2eb519b35dd4e85d2f93857bc7e9846d21083"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/runtime/schema",
-			"Rev": "2f7e9cae4418a86ea03618fea183bfe9fe43c574"
+			"Rev": "ece2eb519b35dd4e85d2f93857bc7e9846d21083"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/selection",
-			"Rev": "2f7e9cae4418a86ea03618fea183bfe9fe43c574"
+			"Rev": "ece2eb519b35dd4e85d2f93857bc7e9846d21083"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/types",
-			"Rev": "2f7e9cae4418a86ea03618fea183bfe9fe43c574"
+			"Rev": "ece2eb519b35dd4e85d2f93857bc7e9846d21083"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/util/errors",
-			"Rev": "2f7e9cae4418a86ea03618fea183bfe9fe43c574"
+			"Rev": "ece2eb519b35dd4e85d2f93857bc7e9846d21083"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/util/intstr",
-			"Rev": "2f7e9cae4418a86ea03618fea183bfe9fe43c574"
+			"Rev": "ece2eb519b35dd4e85d2f93857bc7e9846d21083"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/util/json",
-			"Rev": "2f7e9cae4418a86ea03618fea183bfe9fe43c574"
+			"Rev": "ece2eb519b35dd4e85d2f93857bc7e9846d21083"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/util/naming",
-			"Rev": "2f7e9cae4418a86ea03618fea183bfe9fe43c574"
+			"Rev": "ece2eb519b35dd4e85d2f93857bc7e9846d21083"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/util/net",
-			"Rev": "2f7e9cae4418a86ea03618fea183bfe9fe43c574"
+			"Rev": "ece2eb519b35dd4e85d2f93857bc7e9846d21083"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/util/runtime",
-			"Rev": "2f7e9cae4418a86ea03618fea183bfe9fe43c574"
+			"Rev": "ece2eb519b35dd4e85d2f93857bc7e9846d21083"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/util/sets",
-			"Rev": "2f7e9cae4418a86ea03618fea183bfe9fe43c574"
+			"Rev": "ece2eb519b35dd4e85d2f93857bc7e9846d21083"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/util/validation",
-			"Rev": "2f7e9cae4418a86ea03618fea183bfe9fe43c574"
+			"Rev": "ece2eb519b35dd4e85d2f93857bc7e9846d21083"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/util/validation/field",
-			"Rev": "2f7e9cae4418a86ea03618fea183bfe9fe43c574"
+			"Rev": "ece2eb519b35dd4e85d2f93857bc7e9846d21083"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/watch",
-			"Rev": "2f7e9cae4418a86ea03618fea183bfe9fe43c574"
+			"Rev": "ece2eb519b35dd4e85d2f93857bc7e9846d21083"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/third_party/forked/golang/reflect",
-			"Rev": "2f7e9cae4418a86ea03618fea183bfe9fe43c574"
+			"Rev": "ece2eb519b35dd4e85d2f93857bc7e9846d21083"
 		},
 		{
 			"ImportPath": "k8s.io/klog",

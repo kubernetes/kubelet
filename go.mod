@@ -17,4 +17,4 @@ replace (
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20190612125636-6a5db36e93ad
 )
 
-replace k8s.io/component-base => k8s.io/component-base v0.0.0-20190617004208-2b0aae80ca81
+replace k8s.io/component-base => k8s.io/component-base v0.0.0-20190617074208-2b0aae80ca81

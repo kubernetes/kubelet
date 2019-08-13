@@ -47,6 +47,10 @@
 			"Rev": "73d445a93680"
 		},
 		{
+			"ImportPath": "github.com/go-logr/logr",
+			"Rev": "v0.1.0"
+		},
+		{
 			"ImportPath": "github.com/go-openapi/jsonpointer",
 			"Rev": "46af16f9f7b1"
 		},
@@ -208,11 +212,11 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "077ce48e77da"
+			"Rev": "3b2b5017183f"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "ac5d3b819fc6"
+			"Rev": "cbbcc3bf2cd4"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",
@@ -220,7 +224,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/klog",
-			"Rev": "v0.3.1"
+			"Rev": "v0.4.0"
 		},
 		{
 			"ImportPath": "k8s.io/kube-openapi",

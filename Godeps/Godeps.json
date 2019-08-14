@@ -172,7 +172,7 @@
 		},
 		{
 			"ImportPath": "golang.org/x/net",
-			"Rev": "65e2d4e15006"
+			"Rev": "cdfb69ac37fc"
 		},
 		{
 			"ImportPath": "golang.org/x/sync",
@@ -212,11 +212,11 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "3b2b5017183f"
+			"Rev": "0772a1bdf941"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "cbbcc3bf2cd4"
+			"Rev": "533d101be9a6"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",

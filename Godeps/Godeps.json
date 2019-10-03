@@ -208,15 +208,15 @@
 		},
 		{
 			"ImportPath": "gopkg.in/yaml.v2",
-			"Rev": "v2.2.2"
+			"Rev": "v2.2.4"
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "eac758366a00"
+			"Rev": "10e821c09743"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "ec87dd743e08"
+			"Rev": "c930edf45883"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",

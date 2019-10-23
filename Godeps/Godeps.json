@@ -96,7 +96,7 @@
 		},
 		{
 			"ImportPath": "github.com/golang/protobuf",
-			"Rev": "v1.3.1"
+			"Rev": "v1.3.2"
 		},
 		{
 			"ImportPath": "github.com/google/go-cmp",
@@ -232,7 +232,7 @@
 		},
 		{
 			"ImportPath": "google.golang.org/grpc",
-			"Rev": "v1.23.0"
+			"Rev": "v1.23.1"
 		},
 		{
 			"ImportPath": "gopkg.in/check.v1",
@@ -260,11 +260,11 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "fbf594f18f80"
+			"Rev": "5524a3672fbb"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "fb3eea214746"
+			"Rev": "af6325b3a843"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",

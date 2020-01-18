@@ -27,6 +27,10 @@
 			"Rev": "5bd2802263f2"
 		},
 		{
+			"ImportPath": "github.com/census-instrumentation/opencensus-proto",
+			"Rev": "v0.2.1"
+		},
+		{
 			"ImportPath": "github.com/client9/misspell",
 			"Rev": "v0.3.4"
 		},
@@ -45,6 +49,14 @@
 		{
 			"ImportPath": "github.com/emicklei/go-restful",
 			"Rev": "ff4f55a20633"
+		},
+		{
+			"ImportPath": "github.com/envoyproxy/go-control-plane",
+			"Rev": "5f8ba28d4473"
+		},
+		{
+			"ImportPath": "github.com/envoyproxy/protoc-gen-validate",
+			"Rev": "v0.1.0"
 		},
 		{
 			"ImportPath": "github.com/evanphx/json-patch",
@@ -80,7 +92,7 @@
 		},
 		{
 			"ImportPath": "github.com/gogo/protobuf",
-			"Rev": "65acae22fc9d"
+			"Rev": "v1.3.1"
 		},
 		{
 			"ImportPath": "github.com/golang/glog",
@@ -179,6 +191,10 @@
 			"Rev": "v1.0.0"
 		},
 		{
+			"ImportPath": "github.com/prometheus/client_model",
+			"Rev": "14fe0d1b01d4"
+		},
+		{
 			"ImportPath": "github.com/spf13/pflag",
 			"Rev": "v1.0.5"
 		},
@@ -236,11 +252,11 @@
 		},
 		{
 			"ImportPath": "google.golang.org/genproto",
-			"Rev": "54afdca5d873"
+			"Rev": "24fa4b261c55"
 		},
 		{
 			"ImportPath": "google.golang.org/grpc",
-			"Rev": "v1.23.1"
+			"Rev": "v1.26.0"
 		},
 		{
 			"ImportPath": "gopkg.in/check.v1",
@@ -268,11 +284,11 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "9bd6c7846cc9"
+			"Rev": "7aecbd569fd4"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "fb4ce0f53438"
+			"Rev": "b615468efe04"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",

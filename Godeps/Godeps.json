@@ -112,7 +112,7 @@
 		},
 		{
 			"ImportPath": "github.com/google/go-cmp",
-			"Rev": "v0.3.1"
+			"Rev": "v0.4.0"
 		},
 		{
 			"ImportPath": "github.com/google/gofuzz",
@@ -148,7 +148,7 @@
 		},
 		{
 			"ImportPath": "github.com/kr/pretty",
-			"Rev": "v0.1.0"
+			"Rev": "v0.2.0"
 		},
 		{
 			"ImportPath": "github.com/kr/pty",
@@ -220,7 +220,7 @@
 		},
 		{
 			"ImportPath": "golang.org/x/net",
-			"Rev": "13f9640d40b9"
+			"Rev": "16171245cfb2"
 		},
 		{
 			"ImportPath": "golang.org/x/oauth2",
@@ -244,7 +244,7 @@
 		},
 		{
 			"ImportPath": "golang.org/x/xerrors",
-			"Rev": "a985d3407aa7"
+			"Rev": "9bdfabe68543"
 		},
 		{
 			"ImportPath": "google.golang.org/appengine",
@@ -252,7 +252,7 @@
 		},
 		{
 			"ImportPath": "google.golang.org/genproto",
-			"Rev": "24fa4b261c55"
+			"Rev": "f3c370f40bfb"
 		},
 		{
 			"ImportPath": "google.golang.org/grpc",
@@ -260,7 +260,7 @@
 		},
 		{
 			"ImportPath": "gopkg.in/check.v1",
-			"Rev": "788fd7840127"
+			"Rev": "41f04d3bba15"
 		},
 		{
 			"ImportPath": "gopkg.in/fsnotify.v1",
@@ -284,11 +284,11 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "eb909d5fe0e7"
+			"Rev": "b5bd82427fa8"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "147abd67b880"
+			"Rev": "e92250ad09d8"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",

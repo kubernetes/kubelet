@@ -9,16 +9,17 @@ require (
 	golang.org/x/net v0.0.0-20200324143707-d3edc9973b7e
 	google.golang.org/genproto v0.0.0-20200115191322-ca5a22157cba // indirect
 	google.golang.org/grpc v1.26.0
-	k8s.io/api v0.0.0-20200616091054-54aa84730ddd
-	k8s.io/apimachinery v0.0.0-20200616090325-1a0ee4aea6d1
-	k8s.io/component-base v0.0.0-20200616093425-c948a8160666
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/component-base v0.0.0
 )
 
 replace (
 	golang.org/x/sys => golang.org/x/sys v0.0.0-20190813064441-fde4db37ae7a // pinned to release-branch.go1.13
 	golang.org/x/tools => golang.org/x/tools v0.0.0-20190821162956-65e3620a7ae7 // pinned to release-branch.go1.13
-	k8s.io/api => k8s.io/api v0.0.0-20200616091054-54aa84730ddd
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20200613000956-d8530e6c952f
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20200616091903-31e286ee1926
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20200616093425-c948a8160666
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
+	k8s.io/kubelet => ../kubelet
 )

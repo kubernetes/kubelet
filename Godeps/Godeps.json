@@ -411,6 +411,18 @@
 			"Rev": "v0.22.2"
 		},
 		{
+			"ImportPath": "go.uber.org/atomic",
+			"Rev": "v1.4.0"
+		},
+		{
+			"ImportPath": "go.uber.org/multierr",
+			"Rev": "v1.1.0"
+		},
+		{
+			"ImportPath": "go.uber.org/zap",
+			"Rev": "v1.10.0"
+		},
+		{
 			"ImportPath": "golang.org/x/crypto",
 			"Rev": "bac4c82f6975"
 		},
@@ -528,19 +540,19 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "96dd8b8608bc"
+			"Rev": "54aa84730ddd"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "96f75771c510"
+			"Rev": "d8530e6c952f"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "63eae69e3c59"
+			"Rev": "31e286ee1926"
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
-			"Rev": "8d48f868cdb4"
+			"Rev": "c948a8160666"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",

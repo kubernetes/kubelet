@@ -548,11 +548,11 @@
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "58357f96bf43"
+			"Rev": "57681663d939"
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
-			"Rev": "5cd58fa2c139"
+			"Rev": "2737b78048f4"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",
@@ -568,7 +568,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/utils",
-			"Rev": "2df71ebbae66"
+			"Rev": "6e3d28b6ed19"
 		},
 		{
 			"ImportPath": "rsc.io/binaryregexp",

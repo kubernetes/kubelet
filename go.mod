@@ -6,16 +6,17 @@ go 1.15
 
 require (
 	github.com/gogo/protobuf v1.3.1
-	golang.org/x/net v0.0.0-20200707034311-ab3426394381
+	golang.org/x/net v0.0.0-20201110031124-69a78807bb2b
 	google.golang.org/grpc v1.27.0
-	k8s.io/api v0.0.0-20201113002257-a5dfa0b8c2b2
-	k8s.io/apimachinery v0.0.0-20201112162105-000b5f4f8623
-	k8s.io/component-base v0.0.0-20201112203008-d069ee2b5079
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/component-base v0.0.0
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20201113002257-a5dfa0b8c2b2
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20201112162105-000b5f4f8623
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20201112202528-30548acd0a9e
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20201112203008-d069ee2b5079
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
+	k8s.io/kubelet => ../kubelet
 )

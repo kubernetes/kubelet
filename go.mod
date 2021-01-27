@@ -9,14 +9,15 @@ require (
 	golang.org/x/net v0.0.0-20201110031124-69a78807bb2b
 	google.golang.org/genproto v0.0.0-20201110150050-8816d57aaa9a // indirect
 	google.golang.org/grpc v1.27.1
-	k8s.io/api v0.0.0-20210129201028-cfb031d9922e
-	k8s.io/apimachinery v0.0.0-20210129200846-d656fe577b19
-	k8s.io/component-base v0.0.0-20210129201716-090761b6f2fb
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/component-base v0.0.0
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20210129201028-cfb031d9922e
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20210129200846-d656fe577b19
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20210129201247-c8e0107904fe
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20210129201716-090761b6f2fb
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
+	k8s.io/kubelet => ../kubelet
 )

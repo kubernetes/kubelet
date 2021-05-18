@@ -9,14 +9,14 @@ require (
 	golang.org/x/net v0.0.0-20210224082022-3d97a244fca7
 	google.golang.org/genproto v0.0.0-20201110150050-8816d57aaa9a // indirect
 	google.golang.org/grpc v1.27.1
-	k8s.io/api v0.0.0-20210313025757-51a1c5553d68
-	k8s.io/apimachinery v0.0.0-20210329111815-e337f44144a6
-	k8s.io/component-base v0.0.0-20210313031516-9f42c8df41b0
+	k8s.io/api v0.21.2-rc.0
+	k8s.io/apimachinery v0.21.2-rc.0
+	k8s.io/component-base v0.21.2-rc.0
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20210313025757-51a1c5553d68
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20210329111815-e337f44144a6
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20210329112528-6be0785e0e32
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20210313031516-9f42c8df41b0
+	k8s.io/api => k8s.io/api v0.21.2-rc.0
+	k8s.io/apimachinery => k8s.io/apimachinery v0.21.2-rc.0
+	k8s.io/client-go => k8s.io/client-go v0.21.2-rc.0
+	k8s.io/component-base => k8s.io/component-base v0.21.2-rc.0
 )

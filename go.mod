@@ -10,12 +10,12 @@ require (
 	google.golang.org/grpc v1.38.0
 	k8s.io/api v0.0.0-20211001003357-dd4141958dfc
 	k8s.io/apimachinery v0.0.0-20211001003147-df63df3af3fc
-	k8s.io/component-base v0.0.0-20211001004235-05eaa93d6d25
+	k8s.io/component-base v0.0.0-20211004123803-799bb6e531c3
 )
 
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20211001003357-dd4141958dfc
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20211001003147-df63df3af3fc
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20211001003700-dbfa30b9d908
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20211001004235-05eaa93d6d25
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20211005003654-1cbb8e6f5515
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20211004123803-799bb6e531c3
 )

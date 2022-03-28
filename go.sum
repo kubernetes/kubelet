@@ -58,7 +58,6 @@ github.com/alecthomas/units v0.0.0-20190924025748-f65c72e2690d/go.mod h1:rBZYJk5
 github.com/antihax/optional v1.0.0/go.mod h1:uupD/76wgC+ih3iEmQUL+0Ugr19nfwCT1kdvxnR2qWY=
 github.com/armon/go-socks5 v0.0.0-20160902184237-e75332964ef5/go.mod h1:wHh0iHkYZB8zMSxRWpUBQtwG5a7fFgvEO+odwuTv2gs=
 github.com/asaskevich/govalidator v0.0.0-20190424111038-f61b66f89f4a/go.mod h1:lB+ZfQJz7igIIfQNfa7Ml4HSf2uFQQRzpGGRXenZAgY=
-github.com/asaskevich/govalidator v0.0.0-20190424111038-f61b66f89f4a/go.mod h1:lB+ZfQJz7igIIfQNfa7Ml4HSf2uFQQRzpGGRXenZAgY=
 github.com/benbjohnson/clock v1.0.3/go.mod h1:bGMdMPoPVvcYyt1gHDf4J2KE153Yf9BuiUKYMaxlTDM=
 github.com/benbjohnson/clock v1.1.0/go.mod h1:J11/hYXuz8f4ySSvYwY0FKfm+ezbsZBKZxNJlLklBHA=
 github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973/go.mod h1:Dwedo/Wpr24TaqPxmxbtue+5NUziq4I4S80YR8gNf3Q=
@@ -711,6 +710,13 @@ honnef.co/go/tools v0.0.0-20190523083050-ea95bdfd59fc/go.mod h1:rf3lG4BRIbNafJWh
 honnef.co/go/tools v0.0.1-2019.2.3/go.mod h1:a3bituU0lyd329TUQxRnasdCoJDkEUEAqEt0JzvZhAg=
 honnef.co/go/tools v0.0.1-2020.1.3/go.mod h1:X/FiERA/W4tHapMX5mGpAtMSVEeEUOyHaw9vFzvIQ3k=
 honnef.co/go/tools v0.0.1-2020.1.4/go.mod h1:X/FiERA/W4tHapMX5mGpAtMSVEeEUOyHaw9vFzvIQ3k=
+k8s.io/api v0.0.0-20220328211228-e43e442d69ae h1:+fTlmPHEkWNRmZXwTXjYOO3s8vE7jDc95lnVBo04VOg=
+k8s.io/api v0.0.0-20220328211228-e43e442d69ae/go.mod h1:B54F1cQefRZjrzjwT8tJgapXYrUho8Lr/KcTpdLWhyU=
+k8s.io/apimachinery v0.0.0-20220328200121-3b8fb46ed6f1 h1:VaUIEA4wzN15Ak47QL3NBB4pdwQKe5tCztCLTK+8Fnw=
+k8s.io/apimachinery v0.0.0-20220328200121-3b8fb46ed6f1/go.mod h1:WkN7hnr/sIpKTK8v3BZKqLkdqTMz00TBdMWqE0M0O7Q=
+k8s.io/client-go v0.0.0-20220327011239-402aa66c5cad/go.mod h1:HCq7QlEN/lEZ7hg4X9ldPo4rbktT3jtB83/5IJmurlw=
+k8s.io/component-base v0.0.0-20220329011822-14802e041799 h1:sJYrDypDb6NyYAOwRokukSN277E1Z9KxgDyKRgnaDMA=
+k8s.io/component-base v0.0.0-20220329011822-14802e041799/go.mod h1:ImQZ3G+ZtZ7YrD/dBINMuNXz2H+yFgmp0jY7kWvicVA=
 k8s.io/gengo v0.0.0-20210813121822-485abfe95c7c/go.mod h1:FiNAH4ZV3gBg2Kwh89tzAEV2be7d5xI0vBa/VySYy3E=
 k8s.io/klog/v2 v2.0.0/go.mod h1:PBfzABfn139FHAV07az/IF9Wp1bkk3vpT2XSJ76fSDE=
 k8s.io/klog/v2 v2.2.0/go.mod h1:Od+F08eJP+W3HUb4pSrPpgp9DGU4GzlpG/TmITuYh/Y=

@@ -7,16 +7,16 @@ go 1.18
 require (
 	github.com/gogo/protobuf v1.3.2
 	golang.org/x/net v0.0.0-20220127200216-cd36cc0744dd
-	google.golang.org/grpc v1.44.0
-	k8s.io/api v0.0.0-20220613074849-6b0201da8019
-	k8s.io/apimachinery v0.0.0-20220613074648-b90ea24d2fd6
-	k8s.io/component-base v0.0.0-20220613075733-a8a2668bd522
+	google.golang.org/grpc v1.47.0
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/component-base v0.0.0
 )
 
 require (
 	github.com/go-logr/logr v1.2.3 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
-	github.com/google/go-cmp v0.5.5 // indirect
+	github.com/google/go-cmp v0.5.6 // indirect
 	github.com/google/gofuzz v1.1.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
@@ -36,8 +36,9 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20220613074849-6b0201da8019
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220613074648-b90ea24d2fd6
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20220613075149-d4fc9af2dfad
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20220613075733-a8a2668bd522
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
+	k8s.io/kubelet => ../kubelet
 )

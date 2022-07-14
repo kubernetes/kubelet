@@ -8,9 +8,9 @@ require (
 	github.com/gogo/protobuf v1.3.2
 	golang.org/x/net v0.0.0-20220225172249-27dd8689420f
 	google.golang.org/grpc v1.47.0
-	k8s.io/api v0.0.0-20220709052054-b9bd7327add9
-	k8s.io/apimachinery v0.0.0-20220714010307-51e28bce4230
-	k8s.io/component-base v0.0.0-20220708012912-0c18104097b2
+	k8s.io/api v0.0.0-20220714130747-08c75a7ce2b0
+	k8s.io/apimachinery v0.0.0-20220714130549-afc5e00a762a
+	k8s.io/component-base v0.0.0-20220714131716-acb17c407a9a
 )
 
 require (
@@ -26,8 +26,8 @@ require (
 	github.com/spf13/pflag v1.0.5 // indirect
 	golang.org/x/sys v0.0.0-20220319134239-a9b59b0215f8 // indirect
 	golang.org/x/text v0.3.7 // indirect
-	google.golang.org/genproto v0.0.0-20220310185008-1973136f34c6 // indirect
-	google.golang.org/protobuf v1.27.1 // indirect
+	google.golang.org/genproto v0.0.0-20220502173005-c8bf987b8c21 // indirect
+	google.golang.org/protobuf v1.28.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	k8s.io/klog/v2 v2.70.1 // indirect
@@ -38,8 +38,8 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20220709052054-b9bd7327add9
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220714010307-51e28bce4230
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20220714012324-79a582f2eb0c
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20220708012912-0c18104097b2
+	k8s.io/api => k8s.io/api v0.0.0-20220714130747-08c75a7ce2b0
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220714130549-afc5e00a762a
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20220714131101-743e29dc1f0a
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20220714131716-acb17c407a9a
 )

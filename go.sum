@@ -191,6 +191,12 @@ gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c/go.mod h1:K4uyk7z7BCEPqu6E+C
 gopkg.in/yaml.v3 v3.0.1 h1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA=
 honnef.co/go/tools v0.0.0-20190102054323-c2f93a96b099/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
 honnef.co/go/tools v0.0.0-20190523083050-ea95bdfd59fc/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
+k8s.io/api v0.0.0-20220922184533-be233f856791 h1:kLrF39Nhp2qBtW+YFWmkQ8UHIgrVZ1k4baVdEzrUqDs=
+k8s.io/api v0.0.0-20220922184533-be233f856791/go.mod h1:qd3JkJgL4kOc9vpeehxgQWgM5jRR+g5KDXB1jTQCKss=
+k8s.io/apimachinery v0.0.0-20220922184044-826a74e82875 h1:yuWcGJBlIusScLvx6FPwJRZ3OKOmz/klpSdq6nxf/Yw=
+k8s.io/apimachinery v0.0.0-20220922184044-826a74e82875/go.mod h1:zdDPkAEkslrVOG1IzqRpqLwHlA/W9IhQ6nE1h5IJ7ME=
+k8s.io/component-base v0.0.0-20220922190256-94e3f30688a2 h1:ic/2RtAIZVz82nHEdeo1USjI4/iNUDZoiCzSvOMTlec=
+k8s.io/component-base v0.0.0-20220922190256-94e3f30688a2/go.mod h1:miJ/+x/stZ5GvhmfEz1ThunblWfRNNHrfDPBp0yJgbc=
 k8s.io/klog/v2 v2.80.1 h1:atnLQ121W371wYYFawwYx1aEY2eUfs4l3J72wtgAwV4=
 k8s.io/klog/v2 v2.80.1/go.mod h1:y1WjHnz7Dj687irZUWR/WLkLc5N1YHtjLdmgWjndZn0=
 k8s.io/utils v0.0.0-20220922133306-665eaaec4324 h1:i+xdFemcSNuJvIfBlaYuXgRondKxK4z4prVPKzEaelI=

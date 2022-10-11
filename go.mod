@@ -8,9 +8,9 @@ require (
 	github.com/gogo/protobuf v1.3.2
 	golang.org/x/net v0.0.0-20220722155237-a158d28d115b
 	google.golang.org/grpc v1.49.0
-	k8s.io/api v0.0.0-20221006155042-3638040e4063
-	k8s.io/apimachinery v0.0.0-20221006154840-79993b286671
-	k8s.io/component-base v0.0.0-20221006160206-ab926674f3ba
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/component-base v0.0.0
 )
 
 require (
@@ -33,7 +33,7 @@ require (
 	github.com/spf13/cobra v1.5.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	golang.org/x/sys v0.0.0-20220722155257-8c9f86f7a55f // indirect
-	golang.org/x/text v0.3.7 // indirect
+	golang.org/x/text v0.3.8 // indirect
 	google.golang.org/genproto v0.0.0-20220502173005-c8bf987b8c21 // indirect
 	google.golang.org/protobuf v1.28.1 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
@@ -46,8 +46,9 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20221006155042-3638040e4063
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20221006154840-79993b286671
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20221006155338-b28f6c94f403
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20221006160206-ab926674f3ba
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
+	k8s.io/kubelet => ../kubelet
 )

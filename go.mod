@@ -9,8 +9,8 @@ require (
 	golang.org/x/net v0.0.0-20220722155237-a158d28d115b
 	google.golang.org/grpc v1.49.0
 	k8s.io/api v0.0.0-20221012115127-0184bd884c5e
-	k8s.io/apimachinery v0.0.0-20221012034848-78d003cc9419
-	k8s.io/component-base v0.0.0-20221013201325-c77c317a00ac
+	k8s.io/apimachinery v0.0.0-20221014074937-b839e82f5d70
+	k8s.io/component-base v0.0.0-20221014080429-1c6f043b5467
 )
 
 require (
@@ -32,7 +32,7 @@ require (
 	github.com/prometheus/procfs v0.8.0 // indirect
 	github.com/spf13/cobra v1.6.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
-	golang.org/x/sys v0.0.0-20220722155257-8c9f86f7a55f // indirect
+	golang.org/x/sys v0.0.0-20220908164124-27713097b956 // indirect
 	golang.org/x/text v0.3.8 // indirect
 	google.golang.org/genproto v0.0.0-20220502173005-c8bf987b8c21 // indirect
 	google.golang.org/protobuf v1.28.1 // indirect
@@ -47,7 +47,7 @@ require (
 
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20221012115127-0184bd884c5e
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20221012034848-78d003cc9419
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20221012035333-e6d958c7a853
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20221013201325-c77c317a00ac
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20221014074937-b839e82f5d70
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20221014075641-aea20dde598b
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20221014080429-1c6f043b5467
 )

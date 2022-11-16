@@ -192,6 +192,12 @@ gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c/go.mod h1:K4uyk7z7BCEPqu6E+C
 gopkg.in/yaml.v3 v3.0.1 h1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA=
 honnef.co/go/tools v0.0.0-20190102054323-c2f93a96b099/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
 honnef.co/go/tools v0.0.0-20190523083050-ea95bdfd59fc/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
+k8s.io/api v0.0.0-20221116015155-70abe330cadd h1:VNC35xzZgL+LDL6rwGs98gChgFhytVdj44QCPvo/dGw=
+k8s.io/api v0.0.0-20221116015155-70abe330cadd/go.mod h1:EQTN4w+o3mKcHM+y9wpP+ZWPBqvOYF0UIp0JeSTZYN4=
+k8s.io/apimachinery v0.0.0-20221116014806-0cb034a48677 h1:tvWPTjTVIWYcIq+qvIdKEi9h4N9kk/VbtfL6q4Vilfg=
+k8s.io/apimachinery v0.0.0-20221116014806-0cb034a48677/go.mod h1:5lPbqMG43z11tv1mic52QrCRtTBVCMXP1o10nVUiomU=
+k8s.io/component-base v0.0.0-20221116020507-c17f995c3b74 h1:vsQ48V+DdRSiG71SOjAv16zSPzR3xDKclAvkWhhEjdo=
+k8s.io/component-base v0.0.0-20221116020507-c17f995c3b74/go.mod h1:dutcZOhK4JO/x5nKJVWohyfAy41a76l0rTDjVvq0iDY=
 k8s.io/klog/v2 v2.0.0/go.mod h1:PBfzABfn139FHAV07az/IF9Wp1bkk3vpT2XSJ76fSDE=
 k8s.io/klog/v2 v2.70.1 h1:7aaoSdahviPmR+XkS7FyxlkkXs6tHISSG03RxleQAVQ=
 k8s.io/klog/v2 v2.70.1/go.mod h1:y1WjHnz7Dj687irZUWR/WLkLc5N1YHtjLdmgWjndZn0=

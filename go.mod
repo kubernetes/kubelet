@@ -7,10 +7,10 @@ go 1.19
 require (
 	github.com/gogo/protobuf v1.3.2
 	golang.org/x/net v0.3.1-0.20221206200815-1e63c2f08a10
-	google.golang.org/grpc v1.49.0
-	k8s.io/api v0.0.0-20221207015603-ed9fa272abb9
-	k8s.io/apimachinery v0.0.0-20221207014915-9bd0499e768a
-	k8s.io/component-base v0.0.0-20221207022911-5a27a217e76d
+	google.golang.org/grpc v1.51.0
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/component-base v0.0.0
 )
 
 require (
@@ -46,8 +46,9 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20221207015603-ed9fa272abb9
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20221207014915-9bd0499e768a
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20221207020356-6cbd19f22fe1
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20221207022911-5a27a217e76d
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
+	k8s.io/kubelet => ../kubelet
 )

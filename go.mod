@@ -8,8 +8,8 @@ require (
 	github.com/gogo/protobuf v1.3.2
 	google.golang.org/grpc v1.51.0
 	k8s.io/api v0.0.0-20230112183318-59fcd23597fd
-	k8s.io/apimachinery v0.0.0-20230119040132-7e672c0a278e
-	k8s.io/component-base v0.0.0-20230119004332-38b99c2c9e9a
+	k8s.io/apimachinery v0.0.0-20230120210016-525cf13dc92f
+	k8s.io/component-base v0.0.0-20230121050741-c54e8e995b4c
 )
 
 require (
@@ -47,7 +47,7 @@ require (
 
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20230112183318-59fcd23597fd
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230119040132-7e672c0a278e
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230119041356-31586e6042d9
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20230119004332-38b99c2c9e9a
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230120210016-525cf13dc92f
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20230119210935-84ad8a7920b4
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20230121050741-c54e8e995b4c
 )

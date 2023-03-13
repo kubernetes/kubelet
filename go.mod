@@ -2,14 +2,14 @@
 
 module k8s.io/kubelet
 
-go 1.19
+go 1.20
 
 require (
 	github.com/gogo/protobuf v1.3.2
 	google.golang.org/grpc v1.51.0
-	k8s.io/api v0.0.0-20230308234233-a4afee70a903
-	k8s.io/apimachinery v0.0.0-20230303235435-f357b1fa74b7
-	k8s.io/component-base v0.0.0-20230308075123-cfc68dcaff73
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/component-base v0.0.0
 )
 
 require (
@@ -46,8 +46,9 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20230308234233-a4afee70a903
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230303235435-f357b1fa74b7
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230309033544-64e2c7ff167c
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20230308075123-cfc68dcaff73
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
+	k8s.io/kubelet => ../kubelet
 )

@@ -7,16 +7,16 @@ go 1.20
 require (
 	github.com/gogo/protobuf v1.3.2
 	google.golang.org/grpc v1.51.0
-	k8s.io/api v0.0.0-20230420094736-8360d82aecbc
-	k8s.io/apimachinery v0.0.0-20230420093948-61b874e0403b
-	k8s.io/component-base v0.0.0-20230420101238-3233afb68d4f
+	k8s.io/api v0.0.0-20230424214209-9dec43fa7a26
+	k8s.io/apimachinery v0.0.0-20230424213653-150a158d04ab
+	k8s.io/component-base v0.0.0-20230424222117-cb3e5be831b8
 )
 
 require (
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/blang/semver/v4 v4.0.0 // indirect
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
-	github.com/go-logr/logr v1.2.3 // indirect
+	github.com/go-logr/logr v1.2.4 // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/google/go-cmp v0.5.9 // indirect
 	github.com/google/gofuzz v1.1.0 // indirect
@@ -46,8 +46,8 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20230420094736-8360d82aecbc
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230420093948-61b874e0403b
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230420095809-861f50a667a1
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20230420101238-3233afb68d4f
+	k8s.io/api => k8s.io/api v0.0.0-20230424214209-9dec43fa7a26
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230424213653-150a158d04ab
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20230424215815-e846cbee0dd6
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20230424222117-cb3e5be831b8
 )

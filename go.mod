@@ -9,12 +9,12 @@ require (
 	github.com/gogo/protobuf v1.3.2
 	github.com/stretchr/testify v1.8.2
 	google.golang.org/grpc v1.54.0
-	k8s.io/api v0.0.0-20230607181819-dc63998f1312
-	k8s.io/apimachinery v0.0.0-20230607181606-6b1428efc733
-	k8s.io/apiserver v0.0.0-20230607183517-ec6e78678678
-	k8s.io/client-go v0.0.0-20230607182136-5a019202120a
-	k8s.io/component-base v0.0.0-20230607182916-74586d5a138f
-	k8s.io/cri-api v0.0.0-20230607185041-e5515a56d18b
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/cri-api v0.0.0
 	k8s.io/klog/v2 v2.100.1
 	k8s.io/utils v0.0.0-20230406110748-d93618cff8a2
 )
@@ -30,15 +30,15 @@ require (
 	github.com/google/gofuzz v1.2.0 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
-	github.com/matttproud/golang_protobuf_extensions v1.0.2 // indirect
+	github.com/matttproud/golang_protobuf_extensions v1.0.4 // indirect
 	github.com/moby/spdystream v0.2.0 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/prometheus/client_golang v1.14.0 // indirect
+	github.com/prometheus/client_golang v1.16.0 // indirect
 	github.com/prometheus/client_model v0.3.0 // indirect
-	github.com/prometheus/common v0.37.0 // indirect
-	github.com/prometheus/procfs v0.8.0 // indirect
+	github.com/prometheus/common v0.42.0 // indirect
+	github.com/prometheus/procfs v0.10.1 // indirect
 	github.com/spf13/cobra v1.7.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	golang.org/x/net v0.9.0 // indirect
@@ -59,11 +59,12 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20230607181819-dc63998f1312
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230607181606-6b1428efc733
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230607183517-ec6e78678678
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230607182136-5a019202120a
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20230607182916-74586d5a138f
-	k8s.io/cri-api => k8s.io/cri-api v0.0.0-20230607185041-e5515a56d18b
-	k8s.io/kms => k8s.io/kms v0.0.0-20230607183122-64211556b6e8
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
+	k8s.io/cri-api => ../cri-api
+	k8s.io/kms => ../kms
+	k8s.io/kubelet => ../kubelet
 )

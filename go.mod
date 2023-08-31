@@ -9,12 +9,12 @@ require (
 	github.com/gogo/protobuf v1.3.2
 	github.com/stretchr/testify v1.8.2
 	google.golang.org/grpc v1.54.0
-	k8s.io/api v0.0.0-20230829154641-e4c14aa9116e
-	k8s.io/apimachinery v0.0.0-20230829153926-1629459297c7
-	k8s.io/apiserver v0.0.0-20230829161328-f4c85a1be019
-	k8s.io/client-go v0.0.0-20230829155512-fb2e66896540
-	k8s.io/component-base v0.0.0-20230829160507-62d4fd038129
-	k8s.io/cri-api v0.0.0-20230829164104-604407e718bd
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/cri-api v0.0.0
 	k8s.io/klog/v2 v2.100.1
 	k8s.io/utils v0.0.0-20230406110748-d93618cff8a2
 )
@@ -49,7 +49,7 @@ require (
 	golang.org/x/time v0.3.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20230525234030-28d5490b6b19 // indirect
-	google.golang.org/protobuf v1.31.0 // indirect
+	google.golang.org/protobuf v1.30.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
@@ -59,11 +59,12 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20230829154641-e4c14aa9116e
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230829153926-1629459297c7
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230829161328-f4c85a1be019
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230829155512-fb2e66896540
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20230829160507-62d4fd038129
-	k8s.io/cri-api => k8s.io/cri-api v0.0.0-20230829164104-604407e718bd
-	k8s.io/kms => k8s.io/kms v0.0.0-20230829160816-bf80c44ed005
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
+	k8s.io/cri-api => ../cri-api
+	k8s.io/kms => ../kms
+	k8s.io/kubelet => ../kubelet
 )

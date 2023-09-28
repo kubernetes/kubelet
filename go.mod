@@ -5,15 +5,15 @@ module k8s.io/kubelet
 go 1.20
 
 require (
-	github.com/emicklei/go-restful/v3 v3.9.0
+	github.com/emicklei/go-restful/v3 v3.11.0
 	github.com/gogo/protobuf v1.3.2
 	github.com/stretchr/testify v1.8.2
 	google.golang.org/grpc v1.54.0
 	k8s.io/api v0.0.0-20230920101735-cdfdc4766232
 	k8s.io/apimachinery v0.0.0-20230918221506-a017454658b6
-	k8s.io/apiserver v0.0.0-20230923143303-10be2935308f
-	k8s.io/client-go v0.0.0-20230921182140-34d1b64e67db
-	k8s.io/component-base v0.0.0-20230915223418-8ac388f66c53
+	k8s.io/apiserver v0.0.0-20230928145716-3acfc3ce169a
+	k8s.io/client-go v0.0.0-20230928143146-6b97f71afcff
+	k8s.io/component-base v0.0.0-20230928144420-ccd2744525f7
 	k8s.io/cri-api v0.0.0-20230829164104-604407e718bd
 	k8s.io/klog/v2 v2.100.1
 	k8s.io/utils v0.0.0-20230726121419-3b25d923346b
@@ -62,9 +62,9 @@ require (
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20230920101735-cdfdc4766232
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230918221506-a017454658b6
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230923143303-10be2935308f
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230921182140-34d1b64e67db
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20230915223418-8ac388f66c53
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230928145716-3acfc3ce169a
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20230928143146-6b97f71afcff
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20230928144420-ccd2744525f7
 	k8s.io/cri-api => k8s.io/cri-api v0.0.0-20230829164104-604407e718bd
-	k8s.io/kms => k8s.io/kms v0.0.0-20230915223708-2c5b9078a199
+	k8s.io/kms => k8s.io/kms v0.0.0-20230928145111-cbe799693d1f
 )

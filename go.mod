@@ -2,19 +2,19 @@
 
 module k8s.io/kubelet
 
-go 1.20
+go 1.21.3
 
 require (
 	github.com/emicklei/go-restful/v3 v3.11.0
 	github.com/gogo/protobuf v1.3.2
-	github.com/stretchr/testify v1.8.3
-	google.golang.org/grpc v1.56.3
-	k8s.io/api v0.0.0-20231024171239-3942070de4fb
-	k8s.io/apimachinery v0.0.0-20231024171030-c18d2bfed439
-	k8s.io/apiserver v0.0.0-20231025212333-20066af78ecb
-	k8s.io/client-go v0.0.0-20231024171543-e2e59f3539ef
-	k8s.io/component-base v0.0.0-20231025211718-5d0caec7619f
-	k8s.io/cri-api v0.0.0-20231025134011-bd484da83a15
+	github.com/stretchr/testify v1.8.4
+	google.golang.org/grpc v1.58.2
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/cri-api v0.0.0
 	k8s.io/klog/v2 v2.100.1
 	k8s.io/utils v0.0.0-20230726121419-3b25d923346b
 )
@@ -44,13 +44,13 @@ require (
 	github.com/spf13/cobra v1.7.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	golang.org/x/net v0.17.0 // indirect
-	golang.org/x/oauth2 v0.8.0 // indirect
+	golang.org/x/oauth2 v0.10.0 // indirect
 	golang.org/x/sys v0.13.0 // indirect
 	golang.org/x/term v0.13.0 // indirect
 	golang.org/x/text v0.13.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20230525234030-28d5490b6b19 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20230822172742-b8732ec3820d // indirect
 	google.golang.org/protobuf v1.31.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
@@ -61,11 +61,12 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20231024171239-3942070de4fb
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20231024171030-c18d2bfed439
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20231025212333-20066af78ecb
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20231024171543-e2e59f3539ef
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20231025211718-5d0caec7619f
-	k8s.io/cri-api => k8s.io/cri-api v0.0.0-20231025134011-bd484da83a15
-	k8s.io/kms => k8s.io/kms v0.0.0-20231023195612-e039984be9c9
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
+	k8s.io/cri-api => ../cri-api
+	k8s.io/kms => ../kms
+	k8s.io/kubelet => ../kubelet
 )

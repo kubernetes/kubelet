@@ -9,12 +9,12 @@ require (
 	github.com/gogo/protobuf v1.3.2
 	github.com/stretchr/testify v1.8.3
 	google.golang.org/grpc v1.56.3
-	k8s.io/api v0.0.0-20231024171239-3942070de4fb
-	k8s.io/apimachinery v0.0.0-20231024171030-c18d2bfed439
-	k8s.io/apiserver v0.0.0-20231024172923-fd3f799a6d07
-	k8s.io/client-go v0.0.0-20231024171543-e2e59f3539ef
-	k8s.io/component-base v0.0.0-20231024040035-12d4256eb135
-	k8s.io/cri-api v0.0.0-20231024190040-25811309497d
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/cri-api v0.0.0
 	k8s.io/klog/v2 v2.100.1
 	k8s.io/utils v0.0.0-20230726121419-3b25d923346b
 )
@@ -35,7 +35,6 @@ require (
 	github.com/moby/spdystream v0.2.0 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
-	github.com/mxk/go-flowrate v0.0.0-20140419014527-cca7078d478f // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/prometheus/client_golang v1.16.0 // indirect
 	github.com/prometheus/client_model v0.4.0 // indirect
@@ -61,11 +60,12 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20231024171239-3942070de4fb
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20231024171030-c18d2bfed439
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20231024172923-fd3f799a6d07
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20231024171543-e2e59f3539ef
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20231024040035-12d4256eb135
-	k8s.io/cri-api => k8s.io/cri-api v0.0.0-20231024190040-25811309497d
-	k8s.io/kms => k8s.io/kms v0.0.0-20231023195612-e039984be9c9
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
+	k8s.io/cri-api => ../cri-api
+	k8s.io/kms => ../kms
+	k8s.io/kubelet => ../kubelet
 )

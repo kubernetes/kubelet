@@ -9,11 +9,11 @@ require (
 	github.com/gogo/protobuf v1.3.2
 	github.com/stretchr/testify v1.8.4
 	google.golang.org/grpc v1.58.2
-	k8s.io/api v0.0.0-20231031013930-a9aa0dc09108
-	k8s.io/apimachinery v0.0.0-20231031211055-850727f9e38c
-	k8s.io/apiserver v0.0.0-20231031212854-0f520bf96fed
-	k8s.io/client-go v0.0.0-20231031051614-477cb782cf02
-	k8s.io/component-base v0.0.0-20231027174419-7eefecff8918
+	k8s.io/api v0.0.0-20231101011356-6106c48f363d
+	k8s.io/apimachinery v0.0.0-20231101011123-96ae302100a8
+	k8s.io/apiserver v0.0.0-20231101013206-c78de1fe6c83
+	k8s.io/client-go v0.0.0-20231101011735-7523a344f785
+	k8s.io/component-base v0.0.0-20231101012453-36eaf6a3a115
 	k8s.io/cri-api v0.0.0-20231027184618-f11c0b9770d2
 	k8s.io/klog/v2 v2.100.1
 	k8s.io/utils v0.0.0-20230726121419-3b25d923346b
@@ -56,16 +56,16 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
-	sigs.k8s.io/structured-merge-diff/v4 v4.3.0 // indirect
+	sigs.k8s.io/structured-merge-diff/v4 v4.4.1 // indirect
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20231031013930-a9aa0dc09108
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20231031211055-850727f9e38c
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20231031212854-0f520bf96fed
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20231031051614-477cb782cf02
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20231027174419-7eefecff8918
+	k8s.io/api => k8s.io/api v0.0.0-20231101011356-6106c48f363d
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20231101011123-96ae302100a8
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20231101013206-c78de1fe6c83
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20231101011735-7523a344f785
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20231101012453-36eaf6a3a115
 	k8s.io/cri-api => k8s.io/cri-api v0.0.0-20231027184618-f11c0b9770d2
 	k8s.io/kms => k8s.io/kms v0.0.0-20231031012129-523a5e8e70a1
 )

@@ -9,12 +9,12 @@ require (
 	github.com/gogo/protobuf v1.3.2
 	github.com/stretchr/testify v1.8.4
 	google.golang.org/grpc v1.58.3
-	k8s.io/api v0.0.0-20240314205423-d1659ebfc7f3
-	k8s.io/apimachinery v0.0.0-20240307171817-d82afe1e363a
-	k8s.io/apiserver v0.0.0-20240314211425-d5a86072033f
-	k8s.io/client-go v0.0.0-20240314205749-eea636f8f427
-	k8s.io/component-base v0.0.0-20240312000449-3c774a67a455
-	k8s.io/cri-api v0.0.0-20240306174858-30022f215cd7
+	k8s.io/api v0.31.0-alpha.0
+	k8s.io/apimachinery v0.31.0-alpha.0
+	k8s.io/apiserver v0.31.0-alpha.0
+	k8s.io/client-go v0.31.0-alpha.0
+	k8s.io/component-base v0.31.0-alpha.0
+	k8s.io/cri-api v0.31.0-alpha.0
 	k8s.io/klog/v2 v2.120.1
 	k8s.io/utils v0.0.0-20230726121419-3b25d923346b
 )
@@ -61,11 +61,11 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20240314205423-d1659ebfc7f3
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20240307171817-d82afe1e363a
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20240314211425-d5a86072033f
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20240314205749-eea636f8f427
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20240312000449-3c774a67a455
-	k8s.io/cri-api => k8s.io/cri-api v0.0.0-20240306174858-30022f215cd7
-	k8s.io/kms => k8s.io/kms v0.0.0-20240306172340-03c9a46c21c7
+	k8s.io/api => k8s.io/api v0.31.0-alpha.0
+	k8s.io/apimachinery => k8s.io/apimachinery v0.31.0-alpha.0
+	k8s.io/apiserver => k8s.io/apiserver v0.31.0-alpha.0
+	k8s.io/client-go => k8s.io/client-go v0.31.0-alpha.0
+	k8s.io/component-base => k8s.io/component-base v0.31.0-alpha.0
+	k8s.io/cri-api => k8s.io/cri-api v0.31.0-alpha.0
+	k8s.io/kms => k8s.io/kms v0.31.0-alpha.0
 )

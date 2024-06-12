@@ -11,9 +11,9 @@ require (
 	google.golang.org/grpc v1.59.0
 	k8s.io/api v0.0.0-20240611003639-590e50434bf1
 	k8s.io/apimachinery v0.0.0-20240611003333-1a6a62ad18e9
-	k8s.io/apiserver v0.0.0-20240611010219-800e73917fc2
-	k8s.io/client-go v0.0.0-20240611004119-911684686f22
-	k8s.io/component-base v0.0.0-20240611005304-e4e29391883e
+	k8s.io/apiserver v0.0.0-20240612222510-cbf7029adf1a
+	k8s.io/client-go v0.0.0-20240612221048-39cc8deb076e
+	k8s.io/component-base v0.0.0-20240612123904-00e09447c2e9
 	k8s.io/cri-api v0.0.0-20240529224029-3a66d9d86654
 	k8s.io/klog/v2 v2.120.1
 	k8s.io/utils v0.0.0-20230726121419-3b25d923346b

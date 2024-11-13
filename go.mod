@@ -13,7 +13,7 @@ require (
 	google.golang.org/grpc v1.65.0
 	k8s.io/api v0.0.0-20241108114318-6cc44b8953ae
 	k8s.io/apimachinery v0.0.0-20241108022104-96b97de8d6ba
-	k8s.io/apiserver v0.0.0-20241108130139-3423727e46ef
+	k8s.io/apiserver v0.0.0-20241109171738-cccad306d649
 	k8s.io/client-go v0.0.0-20241108175443-37045084c2aa
 	k8s.io/component-base v0.0.0-20241108211412-55c45bc78189
 	k8s.io/cri-api v0.0.0-20241107034520-f9fb3fa09445

@@ -6,17 +6,21 @@ go 1.23.0
 
 godebug default=go1.23
 
+godebug winreadlinkvolume=0
+
+godebug winsymlink=0
+
 require (
 	github.com/emicklei/go-restful/v3 v3.11.0
 	github.com/gogo/protobuf v1.3.2
 	github.com/stretchr/testify v1.9.0
 	google.golang.org/grpc v1.65.0
-	k8s.io/api v0.0.0-20241127162655-f8e5e36c84f1
-	k8s.io/apimachinery v0.0.0-20240920213627-16af2ff33fbf
-	k8s.io/apiserver v0.0.0-20241127180111-1f546eec45b7
-	k8s.io/client-go v0.0.0-20241127164845-55d23e26d5ef
-	k8s.io/component-base v0.0.0-20241127171706-ad7c5246b8a7
-	k8s.io/cri-api v0.0.0-20241127193822-354c4101c08d
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/cri-api v0.0.0
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20241104100929-3ea5e8cea738
 )
@@ -62,4 +66,14 @@ require (
 	sigs.k8s.io/json v0.0.0-20241010143419-9aa6b5e7a4b3 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.2 // indirect
 	sigs.k8s.io/yaml v1.4.0 // indirect
+)
+
+replace (
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
+	k8s.io/cri-api => ../cri-api
+	k8s.io/kms => ../kms
 )

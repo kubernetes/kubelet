@@ -13,12 +13,12 @@ require (
 	github.com/gogo/protobuf v1.3.2
 	github.com/stretchr/testify v1.9.0
 	google.golang.org/grpc v1.65.0
-	k8s.io/api v0.0.0-20241220201724-9603cdf39dd3
-	k8s.io/apimachinery v0.0.0-20241218214440-307a3ddd3cae
-	k8s.io/apiserver v0.0.0-20250103164131-006dd593ee97
-	k8s.io/client-go v0.0.0-20250103162209-2ad95cfec907
-	k8s.io/component-base v0.0.0-20250103163323-9bd43d9e07dc
-	k8s.io/cri-api v0.0.0-20241213103009-3506b127d656
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/cri-api v0.0.0
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20241104100929-3ea5e8cea738
 )
@@ -51,7 +51,7 @@ require (
 	github.com/x448/float16 v0.8.4 // indirect
 	go.opentelemetry.io/otel v1.28.0 // indirect
 	go.opentelemetry.io/otel/trace v1.28.0 // indirect
-	golang.org/x/net v0.30.0 // indirect
+	golang.org/x/net v0.33.0 // indirect
 	golang.org/x/oauth2 v0.23.0 // indirect
 	golang.org/x/sys v0.28.0 // indirect
 	golang.org/x/term v0.27.0 // indirect
@@ -64,4 +64,14 @@ require (
 	sigs.k8s.io/json v0.0.0-20241010143419-9aa6b5e7a4b3 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.2 // indirect
 	sigs.k8s.io/yaml v1.4.0 // indirect
+)
+
+replace (
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
+	k8s.io/cri-api => ../cri-api
+	k8s.io/kms => ../kms
 )

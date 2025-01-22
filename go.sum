@@ -88,6 +88,8 @@ github.com/spf13/cobra v1.8.1/go.mod h1:wHxEcudfqmLYa8iTfL+OuZPbBZkmvliBWKIezN3k
 github.com/spf13/pflag v1.0.5 h1:iy+VFUOCP1a+8yFto/drg2CJ5u0yRoB7fZw3DKv/JXA=
 github.com/spf13/pflag v1.0.5/go.mod h1:McXfInJRrz4CZXVZOBLb0bTZqETkiAhM9Iw0y3An2Bg=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
+github.com/stretchr/objx v0.5.2 h1:xuMeJ0Sdp5ZMRXx/aWO6RZxdr3beISkG5/G/aIRr3pY=
+github.com/stretchr/objx v0.5.2/go.mod h1:FRsXN1f5AsAjCGJKqEizvkpNtU+EGNCLh3NxZ/8L+MA=
 github.com/stretchr/testify v1.3.0/go.mod h1:M5WIy9Dh21IEIfnGCwXGc5bZfKNJtfHm1UVUgZn+9EI=
 github.com/stretchr/testify v1.9.0 h1:HtqpIVDClZ4nwg75+f6Lvsy/wHu+3BoSGCbBAcpTsTg=
 github.com/stretchr/testify v1.9.0/go.mod h1:r2ic/lqez/lEtzL7wO/rwa5dbSLXVDPFyf8C91i36aY=
@@ -157,12 +159,12 @@ k8s.io/api v0.0.0-20250117201903-3bed2589d43a h1:U5ELuHIj+ewCrRs1t07FA4dqy6VOUAg
 k8s.io/api v0.0.0-20250117201903-3bed2589d43a/go.mod h1:YGB38orWxSXzMXdSPGWLOwrcumsaTbYPKy3dnT0HbRs=
 k8s.io/apimachinery v0.0.0-20250117041610-45d29dc4d66f h1:kdbiV3iKvyIwzB+22TrgOu/F7Tkl3xTFpburE5oKTHU=
 k8s.io/apimachinery v0.0.0-20250117041610-45d29dc4d66f/go.mod h1:h8DnJz4KNjkQsP8iFir+s3sSBEK3Iy43bfB2gFjSR+A=
-k8s.io/apiserver v0.0.0-20250117123540-0e1bb963f716 h1:OFZbPFSTy7bjbMqJNUXQxn6TkLHDuG+AYgXB8C05IJk=
-k8s.io/apiserver v0.0.0-20250117123540-0e1bb963f716/go.mod h1:WrruFvoJwxUenwzMfqTgqVhrBime7dT/8crnzvnkyZk=
-k8s.io/client-go v0.0.0-20250116202332-9897373fe634 h1:Lsd7xmPPz0SUGV+LqbqpXG9y+tlWLuIY64g5kftCwHg=
-k8s.io/client-go v0.0.0-20250116202332-9897373fe634/go.mod h1:m8baph6UVwiEzjPZpE8iaJeBpmXXcF0tE5hmxziVx5Y=
-k8s.io/component-base v0.0.0-20250115203345-3fc0045268f4 h1:SPLlKM4cULKD2vse+QVTA3CC/pBUKGQeoetFzeyo78g=
-k8s.io/component-base v0.0.0-20250115203345-3fc0045268f4/go.mod h1:WbCiRejbYRLGDbj9GaPRsHrz/6kLE5ya7gaRoto0LBg=
+k8s.io/apiserver v0.0.0-20250122205902-cf7237e44ddb h1:tiyI1pVXgMOzII4ooA5LxynAE3dxSpmMbEXLfFy5R3k=
+k8s.io/apiserver v0.0.0-20250122205902-cf7237e44ddb/go.mod h1:SoWE5TVjqNq9GnKzwkB8/P4aK7pmtZZJbLv22RhKC+Y=
+k8s.io/client-go v0.0.0-20250122202702-3617101e66f4 h1:xEqcyaLRJMnWmMRy1yVsW4of/JrSxFROJMg9V66ZyWE=
+k8s.io/client-go v0.0.0-20250122202702-3617101e66f4/go.mod h1:G8sOEVwZqHVpyrVUYvWytjfcjz2Ws2OHUy4I2vxxU4Q=
+k8s.io/component-base v0.0.0-20250122204818-5979ae2bc737 h1:3W41AezQntipDoXKTRt2x8sh0gSSbtJF0jLHeCd+lNU=
+k8s.io/component-base v0.0.0-20250122204818-5979ae2bc737/go.mod h1:wy1tO9UVYy5c57t6LD0xpy8Fukb+vSZB0RvmhTgy+ZU=
 k8s.io/cri-api v0.0.0-20250115210534-a2aeca53612b h1:v+wHzvu1FkauMsjrlgaN2iHT/0zs/UNEGGY3ahZ8M2Q=
 k8s.io/cri-api v0.0.0-20250115210534-a2aeca53612b/go.mod h1:S5IqDvU5BIZt1Caz2Ssd9zFzkCdazFMIbkAL7xzE5tY=
 k8s.io/klog/v2 v2.130.1 h1:n9Xl7H1Xvksem4KFG4PYbdQCQxqc/tTUyrgXaOhHSzk=

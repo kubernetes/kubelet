@@ -2,21 +2,21 @@
 
 module k8s.io/kubelet
 
-go 1.23.0
+go 1.24.0
 
-godebug default=go1.23
+godebug default=go1.24
 
 require (
 	github.com/emicklei/go-restful/v3 v3.11.0
 	github.com/gogo/protobuf v1.3.2
 	github.com/stretchr/testify v1.9.0
 	google.golang.org/grpc v1.65.0
-	k8s.io/api v0.0.0-20250222234703-315eef3bab2a
-	k8s.io/apimachinery v0.0.0-20250224154452-ee1e055b7c5f
-	k8s.io/apiserver v0.0.0-20250226214614-205c0f56b54b
-	k8s.io/client-go v0.0.0-20250224155511-8dd5edb393de
-	k8s.io/component-base v0.0.0-20250223000050-c6b0aebee165
-	k8s.io/cri-api v0.0.0-20250223002741-3dd84b8b2b65
+	k8s.io/api v0.0.0-20250227200351-c3130ba7ba23
+	k8s.io/apimachinery v0.0.0-20250227200116-758f86daa84e
+	k8s.io/apiserver v0.0.0-20250227202702-69cfb424ed5d
+	k8s.io/client-go v0.0.0-20250227200727-b46275ad754d
+	k8s.io/component-base v0.0.0-20250227201942-06fa090a27ec
+	k8s.io/cri-api v0.0.0-20250227204736-ab0a76fc7fde
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20241104100929-3ea5e8cea738
 )

@@ -9,12 +9,12 @@ require (
 	github.com/gogo/protobuf v1.3.2
 	github.com/stretchr/testify v1.8.4
 	google.golang.org/grpc v1.58.3
-	k8s.io/api v0.0.0-20240822113641-f67709f69651
-	k8s.io/apimachinery v0.0.0-20240729091232-07dc100ca27c
-	k8s.io/apiserver v0.0.0-20250109141431-1bd1f73f8f93
-	k8s.io/client-go v0.0.0-20240826073909-8a9438e118ca
-	k8s.io/component-base v0.0.0-20240405201845-0ac84ef15102
-	k8s.io/cri-api v0.0.0-20240405203557-7e1a55b9a18b
+	k8s.io/api v0.30.11
+	k8s.io/apimachinery v0.30.11
+	k8s.io/apiserver v0.30.11
+	k8s.io/client-go v0.30.11
+	k8s.io/component-base v0.30.11
+	k8s.io/cri-api v0.30.11
 	k8s.io/klog/v2 v2.120.1
 	k8s.io/utils v0.0.0-20230726121419-3b25d923346b
 )

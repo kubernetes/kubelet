@@ -11,12 +11,12 @@ require (
 	github.com/gogo/protobuf v1.3.2
 	github.com/stretchr/testify v1.10.0
 	google.golang.org/grpc v1.68.1
-	k8s.io/api v0.0.0-20250314173034-c4f583a4a0c0
-	k8s.io/apimachinery v0.0.0-20250316224947-6ce776c88d38
-	k8s.io/apiserver v0.0.0-20250317134558-5df5358ff96a
-	k8s.io/client-go v0.0.0-20250314173425-595b7ca245de
-	k8s.io/component-base v0.0.0-20250314013811-792166919ea6
-	k8s.io/cri-api v0.0.0-20250315060746-0df2b7e54ab6
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/cri-api v0.0.0
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20241104100929-3ea5e8cea738
 )
@@ -61,4 +61,14 @@ require (
 	sigs.k8s.io/randfill v1.0.0 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.6.0 // indirect
 	sigs.k8s.io/yaml v1.4.0 // indirect
+)
+
+replace (
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
+	k8s.io/cri-api => ../cri-api
+	k8s.io/kms => ../kms
 )

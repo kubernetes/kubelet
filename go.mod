@@ -13,9 +13,9 @@ require (
 	google.golang.org/grpc v1.68.1
 	k8s.io/api v0.0.0-20250320173055-71f613bc3510
 	k8s.io/apimachinery v0.0.0-20250319092800-e8a77bd768fd
-	k8s.io/apiserver v0.0.0-20250320134534-b1020cee142b
-	k8s.io/client-go v0.0.0-20250320053418-e782ad64ac45
-	k8s.io/component-base v0.0.0-20250320054448-cc34cc0d70e9
+	k8s.io/apiserver v0.0.0-20250321052420-37736ec2c1e4
+	k8s.io/client-go v0.0.0-20250321035409-a27e26debde3
+	k8s.io/component-base v0.0.0-20250321044417-f52df19102dc
 	k8s.io/cri-api v0.0.0-20250317185948-1b6a6cdbe325
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20241104100929-3ea5e8cea738
@@ -29,7 +29,7 @@ require (
 	github.com/fxamacker/cbor/v2 v2.7.0 // indirect
 	github.com/go-logr/logr v1.4.2 // indirect
 	github.com/google/go-cmp v0.7.0 // indirect
-	github.com/gorilla/websocket v1.5.3 // indirect
+	github.com/gorilla/websocket v1.5.4-0.20250319132907-e064f32e3674 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/moby/spdystream v0.5.0 // indirect

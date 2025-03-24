@@ -14,9 +14,9 @@ require (
 	k8s.io/api v0.0.0-20250320173055-71f613bc3510
 	k8s.io/apimachinery v0.0.0-20250319092800-e8a77bd768fd
 	k8s.io/apiserver v0.0.0-20250321052421-26bd744afcf5
-	k8s.io/client-go v0.0.0-20250321035409-a27e26debde3
+	k8s.io/client-go v0.0.0-20250321102427-387edb880f47
 	k8s.io/component-base v0.0.0-20250321044417-f52df19102dc
-	k8s.io/cri-api v0.0.0-20250317185948-1b6a6cdbe325
+	k8s.io/cri-api v0.0.0-20250324173833-74299efb05fb
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20241104100929-3ea5e8cea738
 )

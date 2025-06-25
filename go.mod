@@ -12,12 +12,12 @@ require (
 	github.com/stretchr/testify v1.10.0
 	go.uber.org/goleak v1.3.0
 	google.golang.org/grpc v1.72.1
-	k8s.io/api v0.0.0
-	k8s.io/apimachinery v0.0.0
-	k8s.io/apiserver v0.0.0
-	k8s.io/client-go v0.0.0
-	k8s.io/component-base v0.0.0
-	k8s.io/cri-api v0.0.0
+	k8s.io/api v0.0.0-20250625172518-2872eaf4bc66
+	k8s.io/apimachinery v0.0.0-20250625172235-f3d86859ab8a
+	k8s.io/apiserver v0.0.0-20250625174926-662ba26adbb9
+	k8s.io/client-go v0.0.0-20250625172909-cf3a9d7f2e18
+	k8s.io/component-base v0.0.0-20250625174137-670840c797fd
+	k8s.io/cri-api v0.0.0-20250527182550-7d025a3cd8e3
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20250604170112-4c0f3b243397
 )
@@ -62,14 +62,4 @@ require (
 	sigs.k8s.io/randfill v1.0.0 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.7.0 // indirect
 	sigs.k8s.io/yaml v1.4.0 // indirect
-)
-
-replace (
-	k8s.io/api => ../api
-	k8s.io/apimachinery => ../apimachinery
-	k8s.io/apiserver => ../apiserver
-	k8s.io/client-go => ../client-go
-	k8s.io/component-base => ../component-base
-	k8s.io/cri-api => ../cri-api
-	k8s.io/kms => ../kms
 )

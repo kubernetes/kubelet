@@ -8,17 +8,16 @@ godebug default=go1.24
 
 require (
 	github.com/emicklei/go-restful/v3 v3.12.2
-	github.com/gogo/protobuf v1.3.2
 	github.com/stretchr/testify v1.10.0
 	go.uber.org/goleak v1.3.0
 	google.golang.org/grpc v1.72.2
 	google.golang.org/protobuf v1.36.6
-	k8s.io/api v0.0.0-20250828163633-611bbd781500
-	k8s.io/apimachinery v0.0.0-20250828163332-962dea633396
-	k8s.io/apiserver v0.0.0-20250828170351-204e1a5ae220
-	k8s.io/client-go v0.0.0-20250828164049-29207cde88b2
-	k8s.io/component-base v0.0.0-20250828165502-ec7df7aab07f
-	k8s.io/cri-api v0.0.0-20250828172700-7052194ca62e
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/cri-api v0.0.0
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20250604170112-4c0f3b243397
 )
@@ -30,6 +29,7 @@ require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/fxamacker/cbor/v2 v2.9.0 // indirect
 	github.com/go-logr/logr v1.4.3 // indirect
+	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/google/go-cmp v0.7.0 // indirect
 	github.com/gorilla/websocket v1.5.4-0.20250319132907-e064f32e3674 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
@@ -63,4 +63,14 @@ require (
 	sigs.k8s.io/randfill v1.0.0 // indirect
 	sigs.k8s.io/structured-merge-diff/v6 v6.3.0 // indirect
 	sigs.k8s.io/yaml v1.6.0 // indirect
+)
+
+replace (
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
+	k8s.io/cri-api => ../cri-api
+	k8s.io/kms => ../kms
 )

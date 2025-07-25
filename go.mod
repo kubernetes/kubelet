@@ -64,3 +64,5 @@ require (
 	sigs.k8s.io/structured-merge-diff/v6 v6.3.0 // indirect
 	sigs.k8s.io/yaml v1.6.0 // indirect
 )
+
+replace k8s.io/api => k8s.io/api v0.0.0-20250725024535-9bc89ec036ec

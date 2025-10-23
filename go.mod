@@ -12,12 +12,12 @@ require (
 	go.uber.org/goleak v1.3.0
 	google.golang.org/grpc v1.72.2
 	google.golang.org/protobuf v1.36.8
-	k8s.io/api v0.0.0-20251014034829-180fdecad17a
-	k8s.io/apimachinery v0.0.0-20251013232933-de3ea85ba46a
-	k8s.io/apiserver v0.0.0-20251014205804-88df5eac3d70
-	k8s.io/client-go v0.0.0-20251014161020-f217e7096a24
-	k8s.io/component-base v0.0.0-20251013235701-797fe69345a1
-	k8s.io/cri-api v0.0.0-20251009040900-02decfa5d342
+	k8s.io/api v0.35.0-alpha.2
+	k8s.io/apimachinery v0.35.0-alpha.2
+	k8s.io/apiserver v0.35.0-alpha.2
+	k8s.io/client-go v0.35.0-alpha.2
+	k8s.io/component-base v0.35.0-alpha.2
+	k8s.io/cri-api v0.35.0-alpha.2
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20250604170112-4c0f3b243397
 )

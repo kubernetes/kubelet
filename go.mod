@@ -12,11 +12,11 @@ require (
 	go.uber.org/goleak v1.3.0
 	google.golang.org/grpc v1.78.0
 	google.golang.org/protobuf v1.36.11
-	k8s.io/api v0.0.0-20260206114330-2024a969c4aa
-	k8s.io/apimachinery v0.0.0-20260205233455-f12546b4989d
-	k8s.io/apiserver v0.0.0-20260210041522-666a65d1954f
-	k8s.io/client-go v0.0.0-20260210000021-c6e2e47b317b
-	k8s.io/component-base v0.0.0-20260210040513-1d9c480db265
+	k8s.io/api v0.0.0-20260210200506-f5f249b4abf6
+	k8s.io/apimachinery v0.0.0-20260210195147-ac0aa3101e5c
+	k8s.io/apiserver v0.0.0-20260210212029-4dc46b49c628
+	k8s.io/client-go v0.0.0-20260210202119-8fcd3c218f43
+	k8s.io/component-base v0.0.0-20260210205601-7ce8a3ac6d79
 	k8s.io/cri-api v0.0.0-20260210043815-04f13a7aabe4
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20260108192941-914a6e750570
@@ -61,6 +61,6 @@ require (
 	k8s.io/kube-openapi v0.0.0-20260127142750-a19766b6e2d4 // indirect
 	sigs.k8s.io/json v0.0.0-20250730193827-2d320260d730 // indirect
 	sigs.k8s.io/randfill v1.0.0 // indirect
-	sigs.k8s.io/structured-merge-diff/v6 v6.3.1 // indirect
+	sigs.k8s.io/structured-merge-diff/v6 v6.3.2 // indirect
 	sigs.k8s.io/yaml v1.6.0 // indirect
 )

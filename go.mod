@@ -12,12 +12,12 @@ require (
 	go.uber.org/goleak v1.3.0
 	google.golang.org/grpc v1.78.0
 	google.golang.org/protobuf v1.36.11
-	k8s.io/api v0.0.0
-	k8s.io/apimachinery v0.0.0
-	k8s.io/apiserver v0.0.0
-	k8s.io/client-go v0.0.0
-	k8s.io/component-base v0.0.0
-	k8s.io/cri-api v0.0.0
+	k8s.io/api v0.0.0-20260212204713-44213e038791
+	k8s.io/apimachinery v0.0.0-20260212204335-aed281c35483
+	k8s.io/apiserver v0.0.0-20260212211443-8c1ee6150eca
+	k8s.io/client-go v0.0.0-20260212205228-7aaede787267
+	k8s.io/component-base v0.0.0-20260212210418-3080db3816b9
+	k8s.io/cri-api v0.0.0-20260210043815-04f13a7aabe4
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20260210185600-b8788abfbbc2
 )
@@ -63,14 +63,4 @@ require (
 	sigs.k8s.io/randfill v1.0.0 // indirect
 	sigs.k8s.io/structured-merge-diff/v6 v6.3.2 // indirect
 	sigs.k8s.io/yaml v1.6.0 // indirect
-)
-
-replace (
-	k8s.io/api => ../api
-	k8s.io/apimachinery => ../apimachinery
-	k8s.io/apiserver => ../apiserver
-	k8s.io/client-go => ../client-go
-	k8s.io/component-base => ../component-base
-	k8s.io/cri-api => ../cri-api
-	k8s.io/kms => ../kms
 )

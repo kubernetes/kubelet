@@ -102,6 +102,17 @@ const (
 	AlwaysVerify ImagePullCredentialsVerificationPolicy = "AlwaysVerify"
 )
 
+// MemoryReservationPolicy defines how the kubelet applies cgroup v2 memory protection.
+type MemoryReservationPolicy string
+
+const (
+	// NoneMemoryReservationPolicy disables memory.min protection for containers and pods.
+	// This is the default to maintain node stability by preventing "locked" memory.
+	NoneMemoryReservationPolicy MemoryReservationPolicy = "None"
+	// HardReservationMemoryReservationPolicy enables memory.min for containers and pods.
+	HardReservationMemoryReservationPolicy MemoryReservationPolicy = "HardReservation"
+)
+
 // +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object
 
 // KubeletConfiguration contains the configuration for the Kubelet
@@ -888,6 +899,16 @@ type KubeletConfiguration struct {
 	// +featureGate=MemoryQoS
 	// +optional
 	MemoryThrottlingFactor *float64 `json:"memoryThrottlingFactor,omitempty"`
+	// MemoryReservationPolicy controls how the kubelet applies cgroup v2 memory protection.
+	// "None" (default): The kubelet does not set memory.min for containers and pods,
+	// ensuring no hard memory is locked by the kernel.
+	// "HardReservation": The kubelet sets the cgroup v2 memory.min value based on pod and container memory requests.
+	// This ensures the requested memory is never reclaimed by the kernel, but may trigger an OOM if the reservation cannot be satisfied.
+	// See https://kep.k8s.io/2570 for more details.
+	// Default: None
+	// +featureGate=MemoryQoS
+	// +optional
+	MemoryReservationPolicy MemoryReservationPolicy `json:"memoryReservationPolicy,omitempty"`
 	// registerWithTaints are an array of taints to add to a node object when
 	// the kubelet registers itself. This only takes effect when registerNode
 	// is true and upon the initial registration of the node.

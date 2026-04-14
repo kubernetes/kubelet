@@ -13,11 +13,11 @@ require (
 	go.uber.org/goleak v1.3.0
 	google.golang.org/grpc v1.72.1
 	google.golang.org/protobuf v1.36.5
-	k8s.io/api v0.0.0-20260414142438-f7287d9bb272
-	k8s.io/apimachinery v0.0.0-20260414140421-e44e4509559d
-	k8s.io/apiserver v0.0.0-20260414165241-d263847055ec
-	k8s.io/client-go v0.0.0-20260414150837-e7de3f265b9e
-	k8s.io/component-base v0.0.0-20260414160357-b3aee3c5a7ed
+	k8s.io/api v0.0.0-20260414142439-ad42a1f6281f
+	k8s.io/apimachinery v0.0.0-20260414140422-454f531d3fb5
+	k8s.io/apiserver v0.0.0-20260414165243-46f1c88d644b
+	k8s.io/client-go v0.0.0-20260414150839-e4156f317ef4
+	k8s.io/component-base v0.0.0-20260414160359-90136e701ab9
 	k8s.io/cri-api v0.0.0-20260414192050-3522fda9b91a
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20250604170112-4c0f3b243397
@@ -34,7 +34,7 @@ require (
 	github.com/gorilla/websocket v1.5.4-0.20250319132907-e064f32e3674 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
-	github.com/moby/spdystream v0.5.0 // indirect
+	github.com/moby/spdystream v0.5.1 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.3-0.20250322232337-35a7c28c31ee // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect

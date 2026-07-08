@@ -10,9 +10,9 @@ require (
 	github.com/stretchr/testify v1.11.1
 	google.golang.org/grpc v1.81.1
 	google.golang.org/protobuf v1.36.12-0.20260120151049-f2248ac996af
-	k8s.io/api v0.0.0-20260708015948-643f0cd3c4da
-	k8s.io/apimachinery v0.0.0-20260708015502-54f40c0d9f0b
-	k8s.io/component-base v0.0.0-20260708022243-9dc6cf0c75fe
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/component-base v0.0.0
 )
 
 require (
@@ -41,7 +41,7 @@ require (
 	go.opentelemetry.io/otel/trace v1.44.0 // indirect
 	go.yaml.in/yaml/v2 v2.4.4 // indirect
 	golang.org/x/net v0.55.1-0.20260602153038-42abb857022c // indirect
-	golang.org/x/sys v0.45.0 // indirect
+	golang.org/x/sys v0.46.0 // indirect
 	golang.org/x/text v0.37.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20260526163538-3dc84a4a5aaa // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
@@ -53,4 +53,12 @@ require (
 	sigs.k8s.io/randfill v1.0.0 // indirect
 	sigs.k8s.io/structured-merge-diff/v6 v6.4.2 // indirect
 	sigs.k8s.io/yaml v1.6.0 // indirect
+)
+
+replace (
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
+	k8s.io/streaming => ../streaming
 )

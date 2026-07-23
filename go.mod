@@ -12,7 +12,7 @@ require (
 	google.golang.org/protobuf v1.36.12-0.20260120151049-f2248ac996af
 	k8s.io/api v0.0.0-20260723055922-99a09f550ce8
 	k8s.io/apimachinery v0.0.0-20260723012037-cb0680df9e7c
-	k8s.io/component-base v0.0.0-20260721193929-349fbe06359c
+	k8s.io/component-base v0.0.0-20260809042612-a6b06eef21a0
 )
 
 require (
@@ -56,3 +56,5 @@ require (
 )
 
 replace k8s.io/client-go => k8s.io/client-go v0.0.0-20260723060506-b01ed9ab6006
+
+replace k8s.io/streaming => k8s.io/streaming v0.0.0-20260809033646-cdd8da28b407

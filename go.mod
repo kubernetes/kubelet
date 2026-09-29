@@ -10,9 +10,9 @@ require (
 	github.com/stretchr/testify v1.12.1
 	google.golang.org/grpc v1.84.0
 	google.golang.org/protobuf v1.36.12
-	k8s.io/api v0.0.0-20260925215733-743963837084
-	k8s.io/apimachinery v0.0.0-20260925215314-8a0dc0f99314
-	k8s.io/component-base v0.0.0-20260925221810-cd02325dcddd
+	k8s.io/api v0.38.0-alpha.1
+	k8s.io/apimachinery v0.38.0-alpha.1
+	k8s.io/component-base v0.38.0-alpha.1
 )
 
 require (

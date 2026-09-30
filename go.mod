@@ -12,7 +12,7 @@ require (
 	google.golang.org/protobuf v1.36.12
 	k8s.io/api v0.0.0-20260929215907-d3ced1385b66
 	k8s.io/apimachinery v0.0.0-20260929215409-b6d94365bb45
-	k8s.io/component-base v0.0.0-20260929222251-8a6cf3448f5b
+	k8s.io/component-base v0.0.0-20260930021248-4c931d644b26
 )
 
 require (

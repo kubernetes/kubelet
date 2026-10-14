@@ -67,10 +67,10 @@ google.golang.org/protobuf v1.36.12/go.mod h1:HTf+CrKn2C3g5S8VImy6tdcUvCska2kB7j
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
 gopkg.in/inf.v0 v0.9.1 h1:73M5CoZyi3ZLMOyDlQh031Cx6N9NDJ2Vvfl76EDAgDc=
 gopkg.in/inf.v0 v0.9.1/go.mod h1:cWUDdTG/fYaXco+Dcufb5Vnc6Gp2YChqWtbxRZE0mXw=
-k8s.io/api v0.0.0-20261014062226-4da9bd412d97 h1:aT741FgsW3Pj7pGujDSOlCImkgciAHBo3nbISof5YAg=
-k8s.io/api v0.0.0-20261014062226-4da9bd412d97/go.mod h1:sAUDwpq521JbAk0FtcuOZ0un4c3PtmHrKpMmhFrcL0Y=
-k8s.io/apimachinery v0.0.0-20261014061809-27000ee24e0f h1:UbvTVlc1y6FjOm0aKFTKKXE2DYcjTYm+Eqj7jSms8MU=
-k8s.io/apimachinery v0.0.0-20261014061809-27000ee24e0f/go.mod h1:8Swk04FT3w+MMuMDJvUSHHAAQPBUDercCPMrqdQYjWs=
+k8s.io/api v0.0.0-20261014222247-7c9af8812348 h1:amtVb6yazf45tLbGs/AM0fbmlKJ2Vrx57cjeK+2UKbo=
+k8s.io/api v0.0.0-20261014222247-7c9af8812348/go.mod h1:ljIS0knWvEIy2PjA04LxxFKB/7wpAyKWPvaPpcKR5uQ=
+k8s.io/apimachinery v0.0.0-20261014221815-f3452b998b8c h1:LRSvFzx9MPIwFmuXYeLhf4v0NQK4J8BcaiyjlN2LW4U=
+k8s.io/apimachinery v0.0.0-20261014221815-f3452b998b8c/go.mod h1:8Swk04FT3w+MMuMDJvUSHHAAQPBUDercCPMrqdQYjWs=
 k8s.io/component-base v0.0.0-20261014064326-eb2e9d857afe h1:BGCg7eTLO5zzaeYq9gmPhpXxuG1UVPIA5L3Fga6ytXI=
 k8s.io/component-base v0.0.0-20261014064326-eb2e9d857afe/go.mod h1:kSO2DNSuiKSRqcdexbonNPQvxRGE+y7GPmAFqXn4imI=
 k8s.io/klog/v2 v2.140.0 h1:Tf+J3AH7xnUzZyVVXhTgGhEKnFqye14aadWv7bzXdzc=

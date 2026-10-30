@@ -10,9 +10,9 @@ require (
 	github.com/stretchr/testify v1.12.1
 	google.golang.org/grpc v1.85.0
 	google.golang.org/protobuf v1.36.12
-	k8s.io/api v0.0.0-20261029185253-6f5ee883050e
-	k8s.io/apimachinery v0.0.0-20261029183838-a669714d5f6b
-	k8s.io/component-base v0.0.0-20261029151141-3e1d13907f62
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/component-base v0.0.0
 )
 
 require (
@@ -27,7 +27,7 @@ require (
 	github.com/x448/float16 v0.8.4 // indirect
 	go.yaml.in/yaml/v2 v2.4.4 // indirect
 	go.yaml.in/yaml/v3 v3.0.5 // indirect
-	golang.org/x/net v0.61.0 // indirect
+	golang.org/x/net v0.62.0 // indirect
 	golang.org/x/sys v0.49.0 // indirect
 	golang.org/x/text v0.43.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20260928230214-8a89bd6388cc // indirect
@@ -40,4 +40,11 @@ require (
 	sigs.k8s.io/yaml v1.6.0 // indirect
 )
 
-replace k8s.io/client-go => k8s.io/client-go v0.0.0-20261029191039-070ec8c5a410
+replace (
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
+	k8s.io/ktesting => ../ktesting
+	k8s.io/streaming => ../streaming
+)

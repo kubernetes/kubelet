@@ -10,9 +10,9 @@ require (
 	github.com/stretchr/testify v1.12.1
 	google.golang.org/grpc v1.85.0
 	google.golang.org/protobuf v1.36.12
-	k8s.io/api v0.0.0-20261110004848-54115355ef80
-	k8s.io/apimachinery v0.0.0-20261111054554-99ecaa0b26e4
-	k8s.io/component-base v0.0.0-20261103211149-06422decc836
+	k8s.io/api v0.0.0-20261119174813-9749eb65c839
+	k8s.io/apimachinery v0.0.0-20261113044458-398326f9ce6a
+	k8s.io/component-base v0.0.0-20261113210150-fd8dd3143f25
 )
 
 require (
@@ -40,4 +40,4 @@ require (
 	sigs.k8s.io/yaml v1.6.0 // indirect
 )
 
-replace k8s.io/client-go => k8s.io/client-go v0.0.0-20261109205458-5297d7d6d360
+replace k8s.io/client-go => k8s.io/client-go v0.0.0-20261119082213-196a038ef085
